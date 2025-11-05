@@ -1,5 +1,6 @@
 /* Default color scheme */
-@define-color color0 #131971;
+@import url("../colors3.css");
+/* @define-color color0 #131971;
 @define-color color1 #9E9BDE;
 @define-color color2 #8F91D6;
 @define-color color3 #AEB0EA;
@@ -14,16 +15,17 @@
 @define-color color12 #657fff;
 @define-color color13 #9e88ff;
 @define-color color14 #8899ff;
-@define-color color15 #fff2ff;
-@define-color selected_bg_color #7e6ccb;
-@define-color bg_color mix(@color0, @color15, 0.12);
+@define-color color15 #fff2ff; */
+/* slightly more saturated, 13 */
+/* @define-color selected_bg_color #7e6ccb;
+define-color bg_color mix(@color0, @color15, 0.12);
 @define-color tooltip_bg_color mix(@color0, @color15, 0.04);
 @define-color base_color mix(@color0, @color15, 0);
 @define-color fg_color @color15;
 @define-color text_color @color15;
 @define-color text_color_disabled mix(@text_color, @base_color, 0.4);
 @define-color selected_fg_color @color15;
-@define-color tooltip_fg_color @color15;
+@define-color tooltip_fg_color @color15; */
 
 /* colormap actually used by the theme, to be overridden in other css files */
 @define-color theme_bg_color @bg_color;
@@ -36,7 +38,7 @@
 @define-color theme_tooltip_fg_color @tooltip_fg_color;
 
 /* shadow effects */
-@define-color shadow alpha(@theme_fg_color, 0.1);
+@define-color shadow alpha(@theme_fg_color, 0.0);
 
 /* misc colors used by gtk+ */
 @define-color info_fg_color @text_color;
@@ -46,11 +48,16 @@
 @define-color question_fg_color @text_color;
 @define-color question_bg_color @theme_selected_bg_color;
 @define-color error_fg_color @text_color;
-@define-color error_bg_color #f52400;
-@define-color link_color mix (@theme_selected_bg_color, black, 0.15);
-@define-color success_color #53a93f;
-@define-color warning_color #f57900;
-@define-color error_color #f52400;
+/* red */
+/* @define-color error_bg_color #f52400; */
+/* black */
+/* @define-color link_color mix (@theme_selected_bg_color, black, 0.15); */
+/* green */
+/* @define-color success_color #53a93f; */
+/* yellow or orange */
+/* @define-color warning_color #f57900; */
+/* red */
+/* @define-color error_color #f52400; */
 
 /* widget colors*/
 @define-color border_color shade(@theme_selected_bg_color, 0.2);

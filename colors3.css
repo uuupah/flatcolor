@@ -1,0 +1,55 @@
+
+/* background - default background*/
+@define-color color0 #282C34;
+/* darkest gray - lighter background, used for status bars */
+@define-color color1 #3F4451;
+/* bright black - selection background */
+@define-color color2 #4F5666;
+/* gray - comments, invisibles, line highlighting */
+@define-color color3 #545862;
+/* light gray - dark foreground (used for status bars) */
+@define-color color4 #9196A1;
+/* foreground - default foreground, caret, delimiters, operators */
+@define-color color5 #ABB2BF;
+/* white - light foreground (not often used) */
+@define-color color6 #E6E6E6;
+/* bright white - the lightest foreground (not often used) */
+@define-color color7 #FFFFFF;
+/* red */
+@define-color color8 #E06C75;
+/* orange */
+@define-color color9 #D19A66;
+/* yellow */
+@define-color color10 #E5C07B;
+/* green */
+@define-color color11 #98C379;
+/* cyan */
+@define-color color12 #56B6C2;
+/* blue */
+@define-color color13 #61AFEF;
+/* magenta */
+@define-color color14 #C678DD;
+/* foreground */
+@define-color color15 @color5;
+
+/* theme color! */
+@define-color selected_bg_color @color11;
+@define-color bg_color @color0;
+@define-color tooltip_bg_color @color0;
+@define-color base_color @color1;
+@define-color fg_color @color5;
+@define-color text_color @color5;
+@define-color text_color_disabled color3;
+@define-color selected_fg_color @color5;
+@define-color tooltip_fg_color @color5;
+
+/* red */
+@define-color error_bg_color @color8;
+/* black */
+@define-color link_color mix (@theme_selected_bg_color, black, 0.15);
+/* green */
+@define-color success_color @color11;
+/* yellow or orange */
+@define-color warning_color @color9;
+/* red */
+@define-color error_color @color8;
